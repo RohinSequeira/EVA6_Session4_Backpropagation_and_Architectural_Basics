@@ -14,12 +14,12 @@ To update the network, we calculate gradients w.r.t. each weights in every layer
 ### Network Architechture:
 There are two inputs: i1 and i2  
 Targets: t1 and t2  
-hidden layer nodes: h1 and h2  
-activation functions in hidden layers: a_h1 and a_h2  
-outputs: o1 and o2  
-activation functions in output layers: a_o1 and a_o2  
-errors: E1 and E2  
-weights: w1, w2, w3, w4, w5, w6, w7 and w8  
+Hidden layer nodes: h1 and h2  
+Activated nodes: a_h1 and a_h2  
+Outputs: o1 and o2  
+Activated outputs: a_o1 and a_o2  
+Errors: E1 and E2  
+Weights: w1, w2, w3, w4, w5, w6, w7 and w8  
 
 ![feedforward](https://user-images.githubusercontent.com/65554220/119848614-94721180-bf29-11eb-91e7-989e09bb1d98.JPG)
 
@@ -96,9 +96,9 @@ We simply calculate gradient of cost function w.r.t. the weight and multiply wit
 ![image](https://user-images.githubusercontent.com/65554220/119844436-0d6f6a00-bf26-11eb-9fad-986fccb1099e.png)
 
 Below image shows the effect of learning rates on convergence.
-As the learning rate is increased the convergence becomes faster. As the learning rate increase, there will be a point where loss stops decreasing and starts increasing.
-We should select learning rate such that the losses are minimized and converge at global minima faster.
-In this example, we do not have any very high learning rate. Learning rate of 0.1 is too low in this case whereas 2 is a very good learning rate from the curves.  
+**As the learning rate is increased the convergence becomes faster**. As the learning rate increases, there will be a point where loss stops decreasing and starts increasing.
+We should select learning rate such that the losses are minimized and converge at global minima faster, without overshooting.
+In this example, we do not have a very high learning rate. Learning rate of 0.1 is too low in this case whereas 2 is a very good learning rate, as observed from the graphs.  
 
 ![learning rate](https://user-images.githubusercontent.com/65554220/119846043-6a1f5480-bf27-11eb-8487-4cf95a00d3d8.JPG)
 
