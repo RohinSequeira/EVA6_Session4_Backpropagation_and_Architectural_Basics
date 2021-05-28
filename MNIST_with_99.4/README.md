@@ -10,10 +10,12 @@
 
 ### Approaches
 
-We have adopted two approaches to achieve the target of 99.4 % accuracy. One using Average pooling and one with Max pooling, before the fully connected layer. The reason for talking about the one with Max pooling is because it has provided us with the best Accuracy and least loss.
+We have adopted two approaches to achieve the target of 99.4 % accuracy. One using Average pooling and one with Max pooling, before the fully connected layer. The reason for talking about the one with Max pooling is because it has provided us with the best Accuracy and least loss. **Approach 1 is our submission, as per the requirements.**
 
 
 ## Approach 1: With Avg pooling before fully connected layer
+
+[MNIST_20K_Params_EVA6_Session_4.ipynb](https://github.com/RohinSequeira/EVA6_Session4_Backpropagation_and_Architectural_Basics/blob/main/MNIST_with_99.4/MNIST_20K_Params_EVA6_Session_4.ipynb)
 
 ### Architecture
 
