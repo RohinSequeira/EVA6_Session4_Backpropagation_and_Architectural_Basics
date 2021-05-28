@@ -1,7 +1,7 @@
 
 # Neural Network Feedforward and Backpropagation
 
-## Part 1 - Backpropagation Steps:
+Our objective here is to understand how back propagation works with Neural Networks, by implementing them in MS Excel. Read on to know more.
 
 ### Introduction:
 Neural Network consists of neurons and connections between these neurons called weights and some biases connected to each neuron.
