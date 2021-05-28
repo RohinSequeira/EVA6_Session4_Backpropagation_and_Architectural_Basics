@@ -1,6 +1,6 @@
 # EVA6_Session4_Backpropagation_and_Architectural_Basics
 
-This this we are working on a two part problem, please follow the links to access corresponding contents:
+Here we are working on a two part problem, please follow the links to access corresponding contents:
 
 ### 1. Implementing Backpropagation in excel:
 
