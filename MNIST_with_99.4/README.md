@@ -13,10 +13,31 @@
 We have adopted two approaches to achieve the target of 99.4 % accuracy. One using Average pooling and one with Max pooling, before the fully connected layer. The reason for talking about the one with Max pooling is because it has provided us with the best Accuracy and least loss.
 
 
-## Approach 1
+## Approach 1: With Avg pooling before fully connected layer
 
 ### Architecture
 
+
+
+
+### Model Summary
+
+
+
+### Training Logs
+
+
+
+### Losses and Accuracy
+
+
+
+
+## Approach 2: With Max pooling before fully connected layer
+
+### Architecture
+
+![image](https://user-images.githubusercontent.com/31658286/120028032-c65ea300-c011-11eb-8774-54f017fa96eb.png)
 
 
 
@@ -133,27 +154,6 @@ Test set: Average loss: 0.015, Accuracy: 99.46
 
 
 ![Accuracy](https://user-images.githubusercontent.com/31658286/120024703-34549b80-c00d-11eb-8e6f-b252c3da9f5e.png)
-
-
-## Approach 2
-
-### Architecture
-
-![image](https://user-images.githubusercontent.com/31658286/120028032-c65ea300-c011-11eb-8774-54f017fa96eb.png)
-
-
-
-### Model Summary
-
-
-
-### Training Logs
-
-
-
-### Losses and Accuracy
-
-
 
 
 
