@@ -19,7 +19,7 @@ We have adopted two approaches to achieve the target of 99.4 % accuracy. One usi
 
 ### Architecture
 
-
+![image](https://user-images.githubusercontent.com/31658286/120032858-70d9c480-c018-11eb-9ba7-5570d4fdfac3.png)
 
 
 ### Model Summary
@@ -148,6 +148,8 @@ Test set: Average loss: 0.018, Accuracy: 99.44
 
 
 ## Approach 2: With Max pooling before fully connected layer
+
+[MNIST_digit_recognition_Session_4.ipynb](https://github.com/RohinSequeira/EVA6_Session4_Backpropagation_and_Architectural_Basics/blob/main/MNIST_with_99.4/MNIST_digit_recognition_Session_4.ipynb)
 
 ### Architecture
 
